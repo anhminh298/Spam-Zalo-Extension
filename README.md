@@ -1,6 +1,20 @@
 # Mytool — gửi tin cá nhân trên Zalo Web
 
+**Đây là sản phẩm thuần vibe code, làm cho vui, phục vụ nhu cầu cá nhân và thử nghiệm ý tưởng.** Tool có thể còn lỗi và cần được kiểm tra lại trước mỗi lần sử dụng.
+
 Bản **0.1.4** · Chrome / Brave trên Windows.
+
+## Đối tượng sử dụng
+
+- **Sinh viên:** gửi link khảo sát cho bạn bè, chia sẻ thông báo học tập, hoạt động hoặc gửi lời hỏi thăm.
+- **Giáo viên, trợ giảng:** báo cáo tình hình học tập của học sinh, sinh viên; nhắc bài, gửi thông báo cho phụ huynh hoặc người học. Có thể dùng Excel để cá nhân hóa tên học sinh trong từng tin.
+
+## Lưu ý trước khi sử dụng
+
+- **Không có cam kết** tool luôn hoạt động ổn định, gửi thành công cho mọi người nhận hoặc tránh được việc tài khoản Zalo bị hạn chế hay khóa. Khoảng nghỉ giữa các tin cũng không bảo đảm tránh các rủi ro này.
+- **Bạn tự chịu trách nhiệm khi sử dụng**, bao gồm nội dung gửi, danh sách người nhận và những ảnh hưởng tới tài khoản của mình.
+- Kiểm tra kỹ người nhận và bản xem trước. Chỉ gửi nội dung phù hợp, tôn trọng quyền riêng tư và mong muốn nhận tin của người khác.
+- Danh sách, danh bạ đã lưu và tiến trình được lưu trong hồ sơ trình duyệt của bạn. Gỡ tiện ích hoặc xóa dữ liệu trình duyệt có thể làm mất dữ liệu chưa xuất.
 
 ## Tải và cài
 
@@ -16,21 +30,12 @@ Không cần cài Node.js hoặc chạy server. Giữ thư mục Mytool ở mộ
 
 ## Sử dụng
 
-- **Bạn bè Zalo**: tìm tên, tích người nhận rồi thêm vào danh sách. Lần đầu đồng bộ đầy đủ; những lần sau mở danh bạ đã lưu. Bấm **Cập nhật danh bạ** khi cần lấy lại bạn bè mới nhất.
-- Có thể nhập số điện thoại hoặc nhập Excel `.xlsx` / CSV / TSV, chọn sheet và cột.
-- Trong **Nội dung**, nhập tin nhắn và dán link nếu cần. Tin chung không cần tên học sinh. Có thể chèn `[Tên học sinh]` để cá nhân hóa theo từng dòng Excel.
-- Chọn khoảng nghỉ, kiểm tra bản xem trước, rồi sang **Gửi & kết quả** để chạy. Có thể tạm dừng, lọc kết quả và xuất Excel.
-- Giữ tab Zalo và Mytool mở khi gửi. Tạm dừng trước khi tự chuyển hội thoại trên tab Zalo đang được điều khiển.
-- Một số người không xác định được tài khoản từ danh bạ được liệt kê riêng; có thể thêm bằng SĐT hoặc xử lý trực tiếp trên Zalo.
+1. **Chọn người nhận:** bấm **Bạn bè Zalo**, tìm tên, tích chọn rồi thêm vào danh sách. Bạn cũng có thể nhập SĐT hoặc nhập Excel `.xlsx` / CSV / TSV và chọn sheet, cột tương ứng.
+2. **Soạn tin:** vào **Nội dung**, nhập tin nhắn và dán link khảo sát nếu cần. Tin chung không cần điền tên học sinh. Nếu báo cáo học tập, chèn `[Tên học sinh]` để thay tên theo từng dòng Excel.
+3. **Kiểm tra và gửi:** chọn khoảng nghỉ, xem lại nội dung và người nhận, rồi sang **Gửi & kết quả** để chạy. Có thể tạm dừng, lọc các dòng cần xử lý và xuất Excel kết quả.
 
-## Cập nhật
+Danh bạ được đồng bộ đầy đủ ở lần đầu, những lần mở sau dùng bản đã lưu. Bấm **Cập nhật danh bạ** khi cần lấy lại bạn bè mới nhất. Người chưa xác định được tài khoản từ danh bạ được liệt kê riêng; có thể thêm bằng SĐT hoặc xử lý trực tiếp trên Zalo.
 
-Tải bản mới, giải nén và thay các tệp trong thư mục Mytool đã cài. Sau đó bấm **↻** trên thẻ tiện ích và tải lại tab Mytool, Zalo Web. Cách này giữ cùng thư mục cài đặt; không cần gỡ tiện ích.
-
-## Dữ liệu và lưu ý
-
-Danh sách, danh bạ đã lưu và tiến trình được lưu trong hồ sơ trình duyệt của bạn. Gỡ tiện ích hoặc xóa dữ liệu trình duyệt có thể làm mất dữ liệu chưa xuất. Bản tải về không chứa tài khoản, danh bạ hoặc lịch sử gửi của người phát triển.
-
-Không có cam kết tránh hạn chế hay khóa tài khoản Zalo. Khoảng nghỉ không bảo đảm an toàn; hãy tôn trọng quyền riêng tư và mong muốn nhận tin của người khác.
+Giữ tab Zalo và Mytool mở khi gửi. Tạm dừng trước khi tự chuyển hội thoại trên tab Zalo đang được điều khiển.
 
 Giấy phép thư viện đi kèm trong `Mytool/THIRD-PARTY-LICENSES.txt`.
