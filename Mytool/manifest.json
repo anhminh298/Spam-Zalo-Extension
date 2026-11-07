@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "Mytool · Gửi tin cá nhân",
+  "version": "0.1.4",
+  "description": "Chuẩn bị danh sách Excel, cá nhân hóa tên học sinh và theo dõi từng lượt gửi trên Zalo Web.",
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "https://chat.zalo.me/*"
+  ],
+  "action": {
+    "default_title": "Mở Mytool"
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://chat.zalo.me/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'; worker-src 'self';"
+  }
+}
